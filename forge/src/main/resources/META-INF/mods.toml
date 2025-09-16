@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "client_vein_miner_reworked"
+version = "${version}"
+displayName = "Client Vein Miner Reworked"
+authors = "mumu17"
+logoFile = "icon.png"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.client_vein_miner_reworked]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.client_vein_miner_reworked]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.client_vein_miner_reworked]]
+modId = "cloth_config"
+mandatory = true
+versionRange = "[11.1.136,)"
+ordering = "AFTER"
+side = "BOTH"
