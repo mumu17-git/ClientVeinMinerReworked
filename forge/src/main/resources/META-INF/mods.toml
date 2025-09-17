@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[48,)"
 #issueTrackerURL = ""
 license = "MIT"
 
@@ -12,25 +12,24 @@ logoFile = "icon.png"
 description = '''
 
 '''
-#logoFile = ""
 
 [[dependencies.client_vein_miner_reworked]]
 modId = "forge"
 mandatory = true
-versionRange = "[47,)"
+versionRange = "[48,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.client_vein_miner_reworked]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1,)"
+versionRange = "[1.20.2,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.client_vein_miner_reworked]]
 modId = "cloth_config"
 mandatory = true
-versionRange = "[11.1.136,)"
+versionRange = "[12.0.137,)"
 ordering = "AFTER"
 side = "BOTH"
