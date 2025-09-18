@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "client_vein_miner_reworked",
   "version": "${version}",
-  "name": "ClientVeinMinerReworked",
+  "name": "Client Vein Miner Reworked",
   "description": "",
   "authors": [
     "mumu17"
@@ -25,7 +25,7 @@
     "client_vein_miner_reworked.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.17.2",
+    "fabricloader": ">=${fabric_loader_version}",
     "minecraft": "~${minecraft_version}",
     "java": ">=21",
     "cloth-config": "*",
