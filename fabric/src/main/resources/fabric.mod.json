@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "client_vein_miner_reworked",
+  "version": "${version}",
+  "name": "ClientVeinMinerReworked",
+  "description": "",
+  "authors": [
+    "mumu17"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "modmenu": [
+      "com.mumu17.client_vein_miner_reworked.fabric.ModMenuIntegration"
+    ],
+    "client": [
+      "com.mumu17.client_vein_miner_reworked.fabric.ClientVeinMinerReworkedFabricClient"
+    ]
+  },
+  "mixins": [
+    "client_vein_miner_reworked.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "cloth-config": "*",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
